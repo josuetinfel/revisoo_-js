@@ -29,3 +29,8 @@
 // console.log(n1 * n2);
 // console.log(n1 / n2);
 // console.log(n1 % n2);
+
+// console.log(10 == "10"); // true
+// console.log(10 === "10"); // false
+// const num = 25; const texto = "25";
+// const resultado = num ===! texto; console.log(resultado); // false
