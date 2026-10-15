@@ -40,8 +40,10 @@
 // const satisfazUm = temCarteira || maiorDEidade;
 // console.log(satisfazUm);
 
-let ativo = true;
-let inativo = !ativo;
-console.log("Ativo:" ativo)
-console.log("inativo:", inativo);
+// let ativo = true;
+// let inativo = !ativo;
+// console.log("Ativo:", ativo)
+// console.log("inativo:", inativo)
 
+// console.log("20" + 5); 
+// console.log(Number("20") + 5);
