@@ -37,5 +37,11 @@
 
 // const temCarteira = true;
 // const maiorDEidade = false;
-// const podeConduzir = temCarteira && maiorDEidade;
-// console.log(podeConduzir);
+// const satisfazUm = temCarteira || maiorDEidade;
+// console.log(satisfazUm);
+
+let ativo = true;
+let inativo = !ativo;
+console.log("Ativo:" ativo)
+console.log("inativo:", inativo);
+
