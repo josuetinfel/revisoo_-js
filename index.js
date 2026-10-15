@@ -34,3 +34,8 @@
 // console.log(10 === "10"); // false
 // const num = 25; const texto = "25";
 // const resultado = num ===! texto; console.log(resultado); // false
+
+// const temCarteira = true;
+// const maiorDEidade = false;
+// const podeConduzir = temCarteira && maiorDEidade;
+// console.log(podeConduzir);
