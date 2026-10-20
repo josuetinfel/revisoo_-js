@@ -47,3 +47,41 @@
 
 // console.log("20" + 5); 
 // console.log(Number("20") + 5);
+
+// const resultado = "5" + 3; console.log(resultado); // Saida '53'
+// console.log(typeof resultado); // Saida 'string'
+
+// const resultado = '10' - 2;
+// console.log(resultado); // Saida: 8
+// console.log(typeof resultado); // Saida: 'number'
+
+// const textoDecimal = '123.45'
+// const numeroConvertido = Number(textoDecimal)
+// const total = numeroConvertido + 10
+// console.log(total);
+
+// console.log(Boolean(0));
+// console.log(Boolean(""));
+// console.log(Boolean(100));
+// console.log(Boolean("Gato"));
+
+// let saldo = 100
+// saldo += 50
+// saldo-= 20
+// saldo *= 2
+// saldo /= 4
+// console.log("Saldo Final", saldo);
+
+// const idade = 70
+// const mensagem = idade >= 60 ? 'Pode aponsentar' : 'Não pode aposentar'
+// console.log(mensagem);
+
+const color = 'verde';
+switch (color) {
+    case 'vermelho': console.log('pare')
+    break;
+    case 'amarelo': console.log('atencao')
+    break;
+    case 'verde': console.log('siga')
+    break;
+}
