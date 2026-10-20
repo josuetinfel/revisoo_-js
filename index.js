@@ -76,12 +76,37 @@
 // const mensagem = idade >= 60 ? 'Pode aponsentar' : 'Não pode aposentar'
 // console.log(mensagem);
 
-const color = 'verde';
-switch (color) {
-    case 'vermelho': console.log('pare')
-    break;
-    case 'amarelo': console.log('atencao')
-    break;
-    case 'verde': console.log('siga')
-    break;
-}
+// const color = 'verde';
+// switch (color) {
+//     case 'vermelho': console.log('pare')
+//     break;
+//     case 'amarelo': console.log('atencao')
+//     break;
+//     case 'verde': console.log('siga')
+//     break;
+// }
+
+// const frutas = ['uva', 'pera', 'maçã']
+// for (const fruta of frutas) {
+//     console.log("fruta de vez:", fruta);
+       
+// }
+
+// let j = 0
+// while (j = j + 1) {
+//     console.log("Valor de j:", j);
+//     j++;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
