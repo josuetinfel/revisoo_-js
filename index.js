@@ -105,18 +105,45 @@
 // const maiores = idades.filter(i => i >= 18)
 // console.log(maiores);
 
-const comidas = ["banana","maçã","uva","limão","abobora","beteraba","rabonete"]
-const frutas = ["banana","maçã","uva","limão"]
-const legumes = ["abobora","beterraba","rabonete"]
-const separarFruta = frutas.map(n => n * 3)
-const salarios = [1200, 50, 100,1350.00,300,1450]
-const salariosAltos = [1200,1350.00,1450]
-const salariosBaixo = [50,100,300]
+// const comidas = ["banana","maçã","uva","limão","abobora","beteraba","rabonete"]
+// const frutas = ["banana","maçã","uva","limão"]
+// const legumes = ["abobora","beterraba","rabonete"]
+// const separarFruta = frutas.map(n => n * 3)
+// const salarios = [1200, 50, 100,1350.00,300,1450]
+// const salariosAltos = [1200,1350.00,1450]
+// const salariosBaixo = [50,100,300]
 
 
+// const carrinho = [10, 20.5, 30];
+// const total = carrinho.reduce((acc, p) => acc + p, 0);
+// console.log(total);
 
+// const nomes = ['ana', 'Carlos', 'João'];
+// nomes.forEach(n => console.log(`Olá, ${n}!`))
 
+// const numeros = [1, 2, 3, 4 ,5 ,6 ,7, 8, 9 ,10];
+// const resultado = numeros.filter(n => n %2 === 0).map(n => n * 5)
+// console.log(resultado);
 
+// const a = [1, 2]
+// const b = [3, 4]
+// const c = [ ...a, ...b]
+// const user = { nome: 'Ana', idade: 30 }
+// const { nome, idade } = user
+// console.log(nome);
 
+const alunos = [
+    { nome: 'Ana', nota: 8 },
+    { nome: 'Carlos', nota: 6 },
+    { nome: 'João', nota: 7 },
+    { nome: 'Maria', nota: 9 },
+    { nome: 'Pedro', nota: 5 },
+    { nome: 'Sofia', nota: 8 },
+    { nome: 'Thiago', nota: 7 },
+    { nome: 'Juliana', nota: 6 },
+    { nome: 'Rafael', nota: 9 },
+    { nome: 'Camila', nota: 7 }
+];
 
-
+const alunosAprovados = alunos.filter(aluno => aluno.nota >= 7);
+console.log(alunosAprovados);
